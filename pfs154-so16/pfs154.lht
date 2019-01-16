@@ -7331,7 +7331,7 @@ ha:pcb-rnd-board-v6 {
       ?../pcblib  
       ?~/pcblib/  
       $(rc.path.share)/pcblib  
-      ~/pcb-footprints/custom symbols/               
+      ../symbols/                
      }
     }
   }
