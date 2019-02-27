@@ -1,4 +1,4 @@
-These are evalution boards for the onlne-prgrammable MTP (as opposed to the OTP parts, which can only be programmed offline and once) Padauk µC.
+These are evalution boards for the online-programmable MTP (as opposed to the OTP parts, which can only be programmed offline and once) Padauk µC.
 
 They are free; you can redistribute them and/or modify them under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
 
@@ -9,13 +9,26 @@ Currently there are these board designs:
 
 Both board designs feature:
 
-* Micro-USB connector for optional power supply from USB 8and an LED to indicate USB power).
+* Micro-USB connector for optional power supply from USB and an LED to indicate USB power.
 * Pin headers allowing easy access to all pins on the package.
 * Extra pin header for the pins relevant to online programming.
 * 4 LED at I/O pins.
+* Hand-solderable component packages.
 
 Tools used:
 
 * gschem for the schematic
 * pcb-rnd for the pcb design
+
+Components:
+
+* 1 Padauk PFS 154, PFS 173 or PFS232 microcontroller in 16-pin SOIC package
+* 5 Orient ORH-G35A LED in 0805 package
+* 1 diode in 0805 package
+* 1 0.1 µF capacitor in 0805 package
+* 1 0.01 µF capacitor in 0805 package
+* 5 15 kΩ resistors in 0805 package
+* 1 Boom Precision C21377 micro USB-B connector
+* 2 8-pin single row headers, 2.54 mm spacing
+* 1 6-pin single row header, 2.54 mm spacing
 
