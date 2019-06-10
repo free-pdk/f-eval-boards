@@ -5031,6 +5031,33 @@ ha:pcb-rnd-board-v6 {
          clearpoly=1
         }
        }
+       ha:text.20540 {
+        string=f-eval board for Padauk; x=930.0mil; y=320.0mil; scale=80; fid=0;
+        ha:flags {
+         clearline=1
+         onsolder=1
+        }
+        thickness = 8.0mil
+        rot = 180.000000
+       }
+       ha:text.20542 {
+        string=(c) 2019 Philipp K .Krause; x=930.0mil; y=405.0mil; scale=80; fid=0;
+        ha:flags {
+         clearline=1
+         onsolder=1
+        }
+        thickness = 8.0mil
+        rot = 180.000000
+       }
+       ha:text.20544 {
+        string={License: GPL 2 or later}; x=930.0mil; y=500.0mil; scale=80; fid=0;
+        ha:flags {
+         clearline=1
+         onsolder=1
+        }
+        thickness = 8.0mil
+        rot = 180.000000
+       }
       }
       color = {#3a5fcd}
     }
@@ -5161,6 +5188,15 @@ ha:pcb-rnd-board-v6 {
      ha:combining { sub=1; auto=1;     }
 
       li:objects {
+       ha:text.20543 {
+        string={License: GPL 2 or later}; x=35.814mm; y=445.0mil; scale=80; fid=0;
+        ha:flags {
+         clearline=1
+         onsolder=1
+        }
+        thickness = 8.0mil
+        rot = 0.000000
+       }
       }
       color = {#ff0000}
     }
@@ -7319,6 +7355,7 @@ ha:pcb-rnd-board-v6 {
      shrink = 9.00 mil
      min_wid = 10.00 mil
      bloat = 12.00 mil
+      text_font_id = 0
    }
    ha:editor {
     buffer_number = 0
