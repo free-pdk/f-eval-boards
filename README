@@ -4,10 +4,11 @@ They are free; you can redistribute them and/or modify them under the terms of t
 
 Currently there are these board designs:
 
-* pfs154: For the PFS154 and PFS173 in 16-pin SOIC package.
-* pfs232: For the PFS232 and PFC232 in 16-pin SOIC package (as of 2019-01-16 these devices are not yet available).
+* pfs151-s08: (planned): For the PFC154, PFS151, PFS161, PFS154 and PFS173 in 8-pin SOIC package.
+* pfs154-so16: For the PFC154, PFS154 and PFS173 in 16-pin SOIC package.
+* pfs232-so16: For the PFC232, PFS172 and PFS232 in 16-pin SOIC package.
 
-Both board designs feature:
+The board designs (pfs154-so16 and pfs232-so16) feature:
 
 * Micro-USB connector for optional power supply from USB and an LED to indicate USB power.
 * Pin headers allowing easy access to all pins on the package.
@@ -15,20 +16,33 @@ Both board designs feature:
 * 4 LED at I/O pins.
 * Hand-solderable component packages.
 
+Device support table
+
+Device vs. Board    pfs151-s08   pfs154-so16  pfs232-so16
+
+PFC154              *            *
+PFC232                                        *
+PFS151              *
+PFS154              *            *
+PFS161              *
+PFS172                                        *
+PFS173              *            *
+PFS232                                        *
+
 Tools used:
 
 * gschem for the schematic
 * pcb-rnd for the pcb design
 
-Components:
+Components (pfs154-so16 and pfs232-so16):
 
-* 1 Padauk PFS 154, PFS 173 or PFS232 microcontroller in 16-pin SOIC package
+* 1 Padauk PFC154, PFC232, PFS154, PFS172, PFS173 or PFS232 microcontroller in 16-pin SOIC package
 * 5 Orient ORH-G35A LED in 0805 package
-* 1 diode in 0805 package
+* 1 diode in 0805 package (e.g. CD4148WSP)
 * 1 0.1 µF capacitor in 0805 package
 * 1 0.01 µF capacitor in 0805 package
 * 5 15 kΩ resistors in 0805 package
 * 1 Boom Precision C21377 micro USB-B connector
-* 2 8-pin single row headers, 2.54 mm spacing
-* 1 6-pin single row header, 2.54 mm spacing
+* 2 8-pin single row headers, 2.54 mm spacing (e.g. Nextronics Z-211-0811-0021-001)
+* 1 6-pin single row header, 2.54 mm spacing (e.g. Nextronics Z-211-0611-0021-001)
 
