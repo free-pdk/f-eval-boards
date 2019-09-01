@@ -4,7 +4,7 @@ They are free; you can redistribute them and/or modify them under the terms of t
 
 Currently there are these board designs:
 
-* pfc151-s08: (planned): For the PFC151, PFC154, PFC161, PFS154 and PFS173 in 8-pin SOIC package.
+* pfc151-s08: (untested): For the PFC151, PFC154, PFC161, PFS154 and PFS173 in 8-pin SOIC package.
 * pfs154-so16: For the PFC154, PFS154 and PFS173 in 16-pin SOIC package.
 * pfs232-so16: For the PFC232, PFS172 and PFS232 in 16-pin SOIC package.
 
