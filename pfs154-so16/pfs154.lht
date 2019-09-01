@@ -5178,6 +5178,20 @@ ha:pcb-rnd-board-v6 {
      ha:combining { sub=1; auto=1;     }
 
       li:objects {
+       ha:polygon.21037 { clearance=40.0mil;
+        li:geometry {
+          ta:contour {
+           { 990.0mil; 1.51in }
+           { 390.0mil; 1.51in }
+           { 390.0mil; 1.46in }
+           { 990.0mil; 1.46in }
+          }
+        }
+
+        ha:flags {
+         clearpoly=1
+        }
+       }
       }
       color = {#ff0000}
     }

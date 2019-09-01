@@ -47,7 +47,7 @@ ha:pcb-rnd-board-v6 {
    }
    board_name = PFS232 evaluation board
    ha:grid {
-    spacing = 5.0mil
+    spacing = 10.0mil
     offs_x = 0.0
     offs_y = 0.0
    }
@@ -5245,12 +5245,6 @@ ha:pcb-rnd-board-v6 {
      ha:combining {     }
 
       li:objects {
-       ha:line.19805 {
-        x1=180.0mil; y1=100.0mil; x2=220.0mil; y2=100.0mil; thickness=10.0mil; clearance=40.0mil;
-        ha:flags {
-         clearline=1
-        }
-       }
        ha:line.19808 {
         x1=180.0mil; y1=100.0mil; x2=180.0mil; y2=1.53in; thickness=10.0mil; clearance=40.0mil;
         ha:flags {
@@ -5273,6 +5267,13 @@ ha:pcb-rnd-board-v6 {
         x1=30.48mm; y1=1.53in; x2=30.48mm; y2=100.0mil; thickness=10.0mil; clearance=40.0mil;
         ha:flags {
          clearline=1
+        }
+       }
+       ha:line.23561 {
+        x1=180.0mil; y1=100.0mil; x2=220.0mil; y2=100.0mil; thickness=10.0mil; clearance=40.0mil;
+        ha:flags {
+         clearline=1
+         selected=1
         }
        }
       }
@@ -5315,6 +5316,20 @@ ha:pcb-rnd-board-v6 {
      ha:combining { sub=1; auto=1;     }
 
       li:objects {
+       ha:polygon.23564 { clearance=40.0mil;
+        li:geometry {
+          ta:contour {
+           { 990.0mil; 1.51in }
+           { 390.0mil; 1.51in }
+           { 390.0mil; 1.46in }
+           { 990.0mil; 1.46in }
+          }
+        }
+
+        ha:flags {
+         clearpoly=1
+        }
+       }
       }
       color = {#ff0000}
     }
@@ -7488,8 +7503,8 @@ ha:pcb-rnd-board-v6 {
    ha:editor {
     grid_unit = mil
     buffer_number = 0
-    grids_idx = 2
-    grid = 5.00 mil
+    grids_idx = 3
+    grid = 10.00 mil
      snap_pin = false
    }
    ha:rc {

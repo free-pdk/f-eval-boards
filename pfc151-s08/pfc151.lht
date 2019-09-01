@@ -4103,6 +4103,20 @@ ha:pcb-rnd-board-v6 {
      ha:combining { sub=1; auto=1;     }
 
       li:objects {
+       ha:polygon.4496 { clearance=40.0mil;
+        li:geometry {
+          ta:contour {
+           { 395.0mil; 27.051mm }
+           { 995.0mil; 27.051mm }
+           { 995.0mil; 28.321mm }
+           { 395.0mil; 28.321mm }
+          }
+        }
+
+        ha:flags {
+         clearpoly=1
+        }
+       }
       }
       color = {#ff0000}
     }
@@ -6248,7 +6262,7 @@ ha:pcb-rnd-board-v6 {
      ?../pcblib  
      ?~/pcblib/  
      $(rc.path.share)/pcblib  
-     /home/philipp/pcb-footprints/custom symbols                            
+     /home/philipp/pcb-footprints/custom symbols                             
     }
    }
   }
