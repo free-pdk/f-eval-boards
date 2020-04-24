@@ -4,9 +4,9 @@ They are free; you can redistribute them and/or modify them under the terms of t
 
 Currently there are these board designs:
 
-* pfc151-s08: (untested): For the PFC151, PFC154, PFC161, PFS154 and PFS173 in 8-pin SOIC package.
+* pfc151-so8: For the PFC151, PFC154, PFC161, PFS154 and PFS173 in 8-pin SOIC package.
 * pfs154-so16: For the PFC154, PFS154 and PFS173 in 16-pin SOIC package.
-* pfs232-so16: For the PFC232, PFS172 and PFS232 in 16-pin SOIC package.
+* pfc232-so16: For the PFC232 and PFS172 in 16-pin SOIC package.
 
 The board designs (pfs154-so16 and pfs232-so16) feature:
 
@@ -18,7 +18,7 @@ The board designs (pfs154-so16 and pfs232-so16) feature:
 
 Device support table
 
-Device vs. Board    pfc151-s08   pfs154-so16  pfs232-so16
+Device vs. Board    pfc151-so8   pfs154-so16  pfc232-so16
 
 PFC151              *
 PFC154              *            *
@@ -46,9 +46,9 @@ Components (pfc151-so8):
 * 2 4-pin single row headers, 2.54 mm spacing (e.g. Nextronics Z-211-0411-0021-001)
 * 1 6-pin single row header, 2.54 mm spacing (e.g. Nextronics Z-211-0611-0021-001)
 
-Components (pfs154-so16 and pfs232-so16):
+Components (pfs154-so16 and pfc232-so16):
 
-* 1 Padauk PFC154, PFC232, PFS154, PFS172, PFS173 or PFS232 microcontroller in 16-pin SOIC package
+* 1 Padauk PFC154, PFC232, PFS154, PFS172 or PFS173 microcontroller in 16-pin SOIC package
 * 5 Orient ORH-G35A LED in 0805 package
 * 1 diode in 0805 package (e.g. CD4148WSP)
 * 1 0.1 µF capacitor in 0805 package
