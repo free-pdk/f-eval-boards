@@ -16,6 +16,8 @@ The board designs (pfs154-so16 and pfs232-so16) feature:
 * 4 LED at I/O pins.
 * Hand-solderable component packages.
 
+Some simple demo programs for the boards can be found at: https://github.com/free-pdk/sdcc-pdk-code-examples
+
 Device support table
 
 Device vs. Board    pfc151-s08   pfs154-s16  pfc232-s16
