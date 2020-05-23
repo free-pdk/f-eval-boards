@@ -7,8 +7,8 @@ Currently there are these board designs:
 * f-eval-pdk-s08: For the PFC232 and PFS172 in 8-pin SOIC package.
 * f-eval-pdk-s08a: For the PFC151, PFC154, PFC161, PFS154 and PFS173 in 8-pin SOIC package.
 * f-eval-pdk-s08b: For the PFC161 in 8-pin SOIC package.
-* pfs154-s16: For the PFC154, PFS154 and PFS173 in 16-pin SOIC package.
-* pfc232-s16: For the PFC232 and PFS172 in 16-pin SOIC package.
+* f-eval-pdk-s16: For the PFC154, PFS154 and PFS173 in 16-pin SOIC package.
+* f-eval-pdk-s16a: For the PFC232 and PFS172 in 16-pin SOIC package.
 
 The board designs (pfs154-so16 and pfs232-so16) feature:
 
@@ -22,14 +22,14 @@ Some simple demo programs for the boards can be found at: https://github.com/fre
 
 Device support table
 
-Device vs. Board    f-eval-pdk-s08   f-eval-pdk-s08a   f-eval-pdk-s08b   pfs154-s16   pfc232-s16
+Device vs. Board    f-eval-pdk-s08   f-eval-pdk-s08a   f-eval-pdk-s08b   f-eval-pdk-s16   f-eval-pdk-s16a
 
 PFC151                               y(S08A)
 PFC154                               y(S08)                              y(S16)
 PFC161                               y(S08A)           y(S08B)
-PFC232               y(S08)                                                           y(S16)
+PFC232               y(S08)                                                               y(S16)
 PFS154                               y(S08)                              Y(S16)
-PFS172               y(S08)                                                           y(S16)
+PFS172               y(S08)                                                               y(S16A)
 PFS173                               y(S08)                              Y(S16)
 
 y: Should work (untested).
@@ -52,7 +52,7 @@ Components (f-eval-pdk-s08, f-eval-pdk-s08a and f-eval-pdk-s08b):
 * 2 4-pin single row headers, 2.54 mm spacing (e.g. Nextronics Z-211-0411-0021-001)
 * 1 6-pin single row header, 2.54 mm spacing (e.g. Nextronics Z-211-0611-0021-001)
 
-Components (pfs154-s16 and pfc232-s16):
+Components (f-eval-pdk-s16 and f-eval-pdk-s16):
 
 * 1 Padauk PFC154, PFC232, PFS154, PFS172 or PFS173 microcontroller in 16-pin SOIC package
 * 5 Orient ORH-G35A LED in 0805 package
