@@ -22,13 +22,17 @@ Device support table
 
 Device vs. Board    pfc151-s08   pfs154-s16  pfc232-s16
 
-PFC151              *
-PFC154              *            *
-PFC161              *
-PFC232                                        *
-PFS154              *            *
-PFS172                                        *
-PFS173              *            *
+PFC151              y(S08A)
+PFC154              y(S08)       y(S16)
+PFC161              y(S08A)
+PFC232                                        y(S16)
+PFS154              y(S08)       Y(S16)
+PFS172                                        y(S16)
+PFS173              y(S08)       Y(S16)
+
+y: Should work (untested).
+Y: Works (tested).
+
 
 Tools used:
 
