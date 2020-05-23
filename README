@@ -4,7 +4,7 @@ They are free; you can redistribute them and/or modify them under the terms of t
 
 Currently there are these board designs:
 
-* pfc151-s08: For the PFC151, PFC154, PFC161, PFS154 and PFS173 in 8-pin SOIC package.
+* f-eval-pdk-s08a: For the PFC151, PFC154, PFC161, PFS154 and PFS173 in 8-pin SOIC package.
 * pfs154-s16: For the PFC154, PFS154 and PFS173 in 16-pin SOIC package.
 * pfc232-s16: For the PFC232 and PFS172 in 16-pin SOIC package.
 
@@ -20,15 +20,15 @@ Some simple demo programs for the boards can be found at: https://github.com/fre
 
 Device support table
 
-Device vs. Board    pfc151-s08   pfs154-s16  pfc232-s16
+Device vs. Board    f-eval-pdk-s08a   pfs154-s16   pfc232-s16
 
 PFC151              y(S08A)
-PFC154              y(S08)       y(S16)
+PFC154              y(S08)            y(S16)
 PFC161              y(S08A)
-PFC232                                        y(S16)
-PFS154              y(S08)       Y(S16)
-PFS172                                        y(S16)
-PFS173              y(S08)       Y(S16)
+PFC232                                             y(S16)
+PFS154              y(S08)            Y(S16)
+PFS172                                             y(S16)
+PFS173              y(S08)            Y(S16)
 
 y: Should work (untested).
 Y: Works (tested).
@@ -39,9 +39,9 @@ Tools used:
 * gschem for the schematic
 * pcb-rnd for the pcb design
 
-Components (pfc151-s08):
+Components (f-eval-pdk-s08a):
 
-* 1 Padauk PFC151, PFC154, PFC161, PFS154 or PFS173 microcontroller in 8-pin SOIC package
+* 1 Padauk PFC151, PFC154, PFC161, PFS154 or PFS173 microcontroller in 8-pin SOIC package (for PFC161 use S08A package, not S08B).
 * 3 Orient ORH-G35A LED in 0805 package
 * 1 diode in 0805 package (e.g. CD4148WSP)
 * 1 0.1 µF capacitor in 0805 package
