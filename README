@@ -4,10 +4,10 @@ They are free; you can redistribute them and/or modify them under the terms of t
 
 Currently there are these board designs:
 
-* f-eval-pdk-s08: For the PFC232 and PFS172 in 8-pin SOIC package.
+* f-eval-pdk-s08:  For the PFC232 and PFS172 in 8-pin SOIC package.
 * f-eval-pdk-s08a: For the PFC151, PFC154, PFC161, PFS154 and PFS173 in 8-pin SOIC package.
 * f-eval-pdk-s08b: For the PFC161 in 8-pin SOIC package.
-* f-eval-pdk-s16: For the PFC154, PFS154 and PFS173 in 16-pin SOIC package.
+* f-eval-pdk-s16:  For the PFC154, PFS154 and PFS173 in 16-pin SOIC package.
 * f-eval-pdk-s16a: For the PFC232 and PFS172 in 16-pin SOIC package.
 
 The board designs (pfs154-so16 and pfs232-so16) feature:
@@ -37,7 +37,7 @@ Y: Works (tested).
 
 Tools used:
 
-* gschem for the schematic
+* gschem for the schematic (symbols used to be found in pdk-gschem-symbols repository)
 * pcb-rnd for the pcb design
 
 Components (f-eval-pdk-s08, f-eval-pdk-s08a and f-eval-pdk-s08b):
