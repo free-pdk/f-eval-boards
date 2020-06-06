@@ -28,9 +28,9 @@ PFC151                               y(S08A)
 PFC154                               y(S08)                              y(S16)
 PFC161                               y(S08A)           y(S08B)
 PFC232               y(S08)                                                               y(S16)
-PFS154                               y(S08)                              Y(S16)
+PFS154                               Y(S08)                              Y(S16)
 PFS172               y(S08)                                                               y(S16A)
-PFS173                               y(S08)                              Y(S16)
+PFS173                               Y(S08)                              Y(S16)
 
 y: Should work (untested).
 Y: Works (tested).
