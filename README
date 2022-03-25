@@ -1,5 +1,7 @@
 These are evalution boards for the online-programmable MTP (as opposed to the OTP parts, which can only be programmed offline and once) Padauk µC.
 
+To make physical boards: load the .lht file of the board into pcb-rnd, export from there whatever is needed for your pcb manfacturer.
+
 They are free; you can redistribute them and/or modify them under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
 
 Currently there are these board designs:
