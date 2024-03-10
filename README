@@ -6,11 +6,11 @@ They are free; you can redistribute them and/or modify them under the terms of t
 
 Currently there are these board designs:
 
-* f-eval-pdk-s08:  For the PFS122, PFS172 and PFC232 and in 8-pin SOIC package.
+* f-eval-pdk-s08:  For the PFC232, PFC460, PFS122, PFS132, PFS172 and PFS252 and in 8-pin SOIC package.
 * f-eval-pdk-s08a: For the PFC151, PFC154, PFC161, PFS123, PFS154 and PFS173 in 8-pin SOIC package.
 * f-eval-pdk-s08b: For the PFC161 in 8-pin SOIC package.
 * f-eval-pdk-s16:  For the PFC154, PFS154 and PFS173 in 16-pin SOIC package.
-* f-eval-pdk-s16a: For the PFC232, PFS122 and PFS172 in 16-pin SOIC package.
+* f-eval-pdk-s16a: For the PFC232, PFC460, PFS122, PFS132, PFS172 and PFS252 in 16-pin SOIC package.
 
 The board designs (pfs154-so16 and pfs232-so16) feature:
 
@@ -30,11 +30,14 @@ PFC151                               y(S08A)
 PFC154                               y(S08)                              y(S16)
 PFC161                               y(S08A)           y(S08B)
 PFC232               y(S08)                                                               y(S16)
-PFS154                               Y(S08)                              Y(S16)
+PFC460               y(S08)                                                               y(S16)
 PFS122               y(S08)                                                               y(S16A)
 PFS123                               y(S08)
+PFS132               y(S08)                                                               y(S16)
+PFS154                               Y(S08)                              Y(S16)
 PFS172               Y(S08)                                                               y(S16A)
 PFS173                               Y(S08)                              Y(S16)
+PFS252               y(S08)                                                               y(S16)
 
 y: Should work (untested).
 Y: Works (tested).
@@ -46,7 +49,7 @@ Tools used:
 
 Components (f-eval-pdk-s08, f-eval-pdk-s08a and f-eval-pdk-s08b):
 
-* 1 Padauk PFC151, PFC154, PFC161, PFS154, PFS122, PFS123 or PFS173 microcontroller in 8-pin SOIC package.
+* 1 Padauk PFC151, PFC154, PFC161, PFC232, PFC460, PFS122, PFS123, PFS132, PFS154, PFS172, PFS173 or PFS252 microcontroller in 8-pin SOIC package.
 * 3 Orient ORH-G35A LED in 0805 package
 * 1 diode in 0805 package (e.g. CD4148WSP)
 * 1 0.1 µF capacitor in 0805 package
@@ -58,7 +61,7 @@ Components (f-eval-pdk-s08, f-eval-pdk-s08a and f-eval-pdk-s08b):
 
 Components (f-eval-pdk-s16 and f-eval-pdk-s16):
 
-* 1 Padauk PFC154, PFC232, PFS154, PFS122, PFS172 or PFS173 microcontroller in 16-pin SOIC package
+* 1 Padauk PFC154, PFC232, PFC460, PFS122, PFS132, PFS154, PFS172, PFS173 or PFS232 microcontroller in 16-pin SOIC package
 * 5 Orient ORH-G35A LED in 0805 package
 * 1 diode in 0805 package (e.g. CD4148WSP)
 * 1 0.1 µF capacitor in 0805 package
